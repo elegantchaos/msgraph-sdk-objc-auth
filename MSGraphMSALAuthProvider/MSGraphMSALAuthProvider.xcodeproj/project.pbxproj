@@ -55,7 +55,6 @@
 		E5667824214BD31000C6B7AE /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		E5667826214BD95A00C6B7AE /* MSALAuthenticationProviderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSALAuthenticationProviderTests.m; sourceTree = "<group>"; };
 		E5AACA41214941C3001B9146 /* MSALAuthenticationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSALAuthenticationProvider.m; sourceTree = "<group>"; };
-		E5DF414122735CCF007C8280 /* MSAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MSAL.framework; path = ../Carthage/Build/iOS/MSAL.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,14 +154,6 @@
 				E5667823214BD31000C6B7AE /* OCMArg.h */,
 			);
 			path = OCMock;
-			sourceTree = "<group>";
-		};
-		E5DF413E22735B49007C8280 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E5DF414122735CCF007C8280 /* MSAL.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,7 +449,7 @@
 				);
 				INFOPLIST_FILE = MSGraphMSALAuthProvider/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Microsoft.MSGraph.MSGraphMSALAuthProvider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -486,7 +477,7 @@
 				);
 				INFOPLIST_FILE = MSGraphMSALAuthProvider/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Microsoft.MSGraph.MSGraphMSALAuthProvider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

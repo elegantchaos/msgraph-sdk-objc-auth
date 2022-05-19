@@ -32,8 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		225320C7283656940071E89F /* MSAL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MSAL.xcframework; path = ../../Microsoft/frameworks/MSAL.xcframework; sourceTree = "<group>"; };
-		225320C9283656AB0071E89F /* MSGraphClientSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MSGraphClientSDK.xcframework; path = ../../Microsoft/frameworks/MSGraphClientSDK.xcframework; sourceTree = "<group>"; };
+		225320C7283656940071E89F /* MSAL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MSAL.xcframework; path = ../../frameworks/MSAL.xcframework; sourceTree = "<group>"; };
+		225320C9283656AB0071E89F /* MSGraphClientSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MSGraphClientSDK.xcframework; path = ../../frameworks/MSGraphClientSDK.xcframework; sourceTree = "<group>"; };
 		E50467052148089F00E97F84 /* MSGraphMSALAuthProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSGraphMSALAuthProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50467082148089F00E97F84 /* MSGraphMSALAuthProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphMSALAuthProvider.h; sourceTree = "<group>"; };
 		E50467092148089F00E97F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
